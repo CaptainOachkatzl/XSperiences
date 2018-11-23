@@ -12,7 +12,15 @@ Can't control it? Abstract it.
 
 Delay important decisions as long as possible (local data base or cloud?). Hide the decisions behind interfaces until you have the necessary information to make them.
 
+Use sensible defaults.
+
+A good abstract class/interface makes its implementation impossible to get wrong.
+
+Exceptions are exceptions. Use them sparsely and if you use them, make it count.
+
 Comments describe why you did something, now how. What do you think code is for?
+
+Never pass null into a function. Return null if you must.
 
 
 2. Multithreading
