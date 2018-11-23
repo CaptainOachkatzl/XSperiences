@@ -1,0 +1,24 @@
+1. General
+
+Get your project into a building/debugging/testable state before anything else.
+
+Your first design is wrong and so is your second. Design is iterative. Don't be afraid to scratch things if you come up with a better solution.
+
+Isolate solutions but isolate problems as well. Something giving you trouble? Create something (class/function) which handles it before you let it flow into other parts of your solution.
+
+Some things are complicated. If it is complicated, there needs to be a level of abstraction were it is not complicated.
+
+Can't control it? Abstract it.
+
+Delay important decisions as long as possible (local data base or cloud?). Hide the decisions behind interfaces until you have the necessary information to make them.
+
+Comments describe why you did something, now how. What do you think code is for?
+
+
+2. Multithreading
+
+Multithreading is hard. If it is not hard, you are overlooking something.
+
+Keep critical sections small and as close together as possible.
+
+Multithreading needs to be considered at all layers.
