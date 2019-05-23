@@ -29,4 +29,4 @@ Multithreading is hard. If it is not hard, you are overlooking something.
 
 Keep critical sections small and as close together as possible.
 
-Multithreading needs to be considered at all layers.
+Multithreading needs to be considered on all layers.
