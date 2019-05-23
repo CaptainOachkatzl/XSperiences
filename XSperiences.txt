@@ -14,11 +14,11 @@ Delay important decisions as long as possible (local data base or cloud?). Hide 
 
 Use sensible defaults.
 
-A good abstract class/interface makes its implementation impossible to get wrong.
+A good abstract class/interface makes its implementation hard to get wrong.
 
 Exceptions are exceptions. Use them sparsely and if you use them, make it count.
 
-Comments describe why you did something, now how. What do you think code is for?
+Comments describe why you did something, not how. What do you think code is for?
 
 Never pass null into a function. Return null if you must.
 
